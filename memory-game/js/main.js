@@ -28,15 +28,44 @@ function flipCard() {
 
   let cardID = [i]
 
-  console.log("User flipped" + cards[cardId])
+  console.log("User flipped" + cards[cardId].rank)
 
   checkForMatch();
 };
 
-cardsInPlay.push(cards[cardId])
+cardsInPlay.push(cards[cardId].rank)
 
 let cardId = [i];
 
 flipCard(0);
 
 flipCard(2);
+
+
+
+const myArray = [
+{
+rank: 'queen',
+suit: 'hearts',
+cardImage: "images/queen-of-hearts.png"
+},
+{
+rank: 'queen',
+suit: 'diamonds',
+cardImage: "images/queen-of-diamonds.png"
+}
+{
+rank: 'king',
+suit: 'hearts',
+cardImage: "images/king-of-hearts.png"
+},
+{
+rank: 'king',
+suit: 'diamonds',
+cardImage: "images/king-of-diamonds.png"
+}
+];
+
+console.log(cardImage);
+
+console.log(suit);
