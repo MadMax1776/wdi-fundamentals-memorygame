@@ -4,6 +4,10 @@ const cards = ["queen", "queen", "king", "king"].length;
 
 const cardsInPlay = [];
 
+setAttribute(src= cardImage) {
+  console.log(cards[cardId].cardImage)
+}
+
 function checkForMatch () {
   if (cardsInPlay[0] === cardsInPlay[1]) {
   console.log("You found a match!");
@@ -14,6 +18,9 @@ function checkForMatch () {
 
 
 function flipCard() {
+
+  cardId.getAttribute('data-id');
+
   var cardOne = ["queen"];
 
   cardsInPlay.push('cardOne');
@@ -69,3 +76,18 @@ cardImage: "images/king-of-diamonds.png"
 console.log(cardImage);
 
 console.log(suit);
+
+function createBoard () {
+  for (let i = 0; i < arrayName.length; i++) {
+    text += cards[i] + "<br>";
+    cardElement.setAttribute(src= "images/back.png");
+    cardElement.setAttribute('data-id'= i);
+    appendChild(game-board);
+}
+};
+
+cardElement,addEventListener('click');
+
+function createBoard();
+
+let cardElement = cardImage.createElement('img')
