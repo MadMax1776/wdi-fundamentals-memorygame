@@ -4,22 +4,39 @@ const cards = ["queen", "queen", "king", "king"].length;
 
 const cardsInPlay = [];
 
-var cardOne = ["queen"];
-
-cardsInPlay.push('cardOne');
-
-console.log("User flipped queen")
-
-var cardTwo = ["king"];
-
-cardsInPlay.push('cardTwo');
-
-console.log("User flipped king");
-
-if (cardsInPlay === 2) {
-  alert("You found a match!");
+function checkForMatch () {
+  if (cardsInPlay[0] === cardsInPlay[1]) {
+  console.log("You found a match!");
+} else {
+  console.log("Sorry, try again.");
 }
-// Could not get the else function to work.
-if (cardsInPlay !== 2) {
-  alert("Sorry try again!");
-}
+};
+
+
+function flipCard() {
+  var cardOne = ["queen"];
+
+  cardsInPlay.push('cardOne');
+
+  console.log("User flipped queen")
+
+  var cardTwo = ["king"];
+
+  cardsInPlay.push('cardTwo');
+
+  console.log("User flipped king");
+
+  let cardID = [i]
+
+  console.log("User flipped" + cards[cardId])
+
+  checkForMatch();
+};
+
+cardsInPlay.push(cards[cardId])
+
+let cardId = [i];
+
+flipCard(0);
+
+flipCard(2);
